@@ -55,10 +55,7 @@ namespace ConsoleApp2
             }
             else
             {
-                if (start != null)
-                {
-                    end = arr[i]; k++;
-                }
+                Seq3(arr, ref start, ref end, ref i, ref k);
             }
         }
 
@@ -70,6 +67,14 @@ namespace ConsoleApp2
             {
                 end = arr[i + 1];
                 k++;
+            }
+        }
+
+        public void Seq3(List<int> arr, ref object start, ref object end, ref int i, ref int k)
+        {
+            if (start != null)
+            {
+                end = arr[i]; k++;
             }
         }
 
