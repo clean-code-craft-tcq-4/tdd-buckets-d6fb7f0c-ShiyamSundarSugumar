@@ -20,7 +20,7 @@ namespace ConsoleApp2
             }
         }
 
-        public static void Seq2(List<int> arr, ref object start, ref object end, ref int i, ref int k)
+        static void Seq2(List<int> arr, ref object start, ref object end, ref int i, ref int k)
         {
             k++;
             if (start == null) start = arr[i];
@@ -31,7 +31,7 @@ namespace ConsoleApp2
             }
         }
 
-        public static void Seq3(List<int> arr, ref object start, ref object end, ref int i, ref int k)
+        static void Seq3(List<int> arr, ref object start, ref object end, ref int i, ref int k)
         {
             if (start != null)
             {
