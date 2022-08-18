@@ -19,7 +19,7 @@ namespace ConsoleApp2
 
             foreach (var kk in val)
             {
-                ret_data += "{" + kk.Key[0].ToString() + "-" + kk.Key[1] + ": " + kk.Value.ToString()+"} ";
+                ret_data += "{" + kk.Key[0].ToString() + "-" + kk.Key[1] + ", " + kk.Value.ToString()+"} ";
                 j++;
             }
 
