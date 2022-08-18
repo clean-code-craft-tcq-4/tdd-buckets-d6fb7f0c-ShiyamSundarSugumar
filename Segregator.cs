@@ -9,7 +9,7 @@ namespace ConsoleApp2
 {
     class Segregator
     {
-
+        logic logic = new logic();
         public string find_data(List<int> data)
         {
             int j = 0;
