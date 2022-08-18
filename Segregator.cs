@@ -51,13 +51,7 @@ namespace ConsoleApp2
         {
             if ((arr[i] == arr[i + 1]) || ((arr[i] + 1) == arr[i + 1]))
             {
-                k++;
-                if (start == null) start = arr[i];
-                if (i == arr.Count - 2)
-                {
-                    end = arr[i + 1];
-                    k++;
-                }
+                Seq2(arr, ref start, ref end, ref i, ref k);
             }
             else
             {
@@ -67,5 +61,17 @@ namespace ConsoleApp2
                 }
             }
         }
+
+        public void Seq2 (List<int> arr, ref object start, ref object end, ref int i, ref int k)
+        {
+            k++;
+            if (start == null) start = arr[i];
+            if (i == arr.Count - 2)
+            {
+                end = arr[i + 1];
+                k++;
+            }
+        }
+
     }
 }
