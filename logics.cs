@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class logics
+    public class logics
     {
-        public static void Seq1(List<int> arr, ref object start, ref object end, ref int i, ref int k)
+        public void Seq1(List<int> arr, ref object start, ref object end, ref int i, ref int k)
         {
             if ((arr[i] == arr[i + 1]) || ((arr[i] + 1) == arr[i + 1]))
             {
