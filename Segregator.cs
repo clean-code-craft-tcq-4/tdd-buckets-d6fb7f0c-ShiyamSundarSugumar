@@ -34,7 +34,7 @@ namespace ConsoleApp2
             for (int i = 0; i < arr.Count - 1; i++)
             {
                 
-                logic.Seq1(arr, ref start, ref end, ref i, ref k);
+                logics.Seq1(arr, ref start, ref end, ref i, ref k);
 
                 if (end != null)
                 {
