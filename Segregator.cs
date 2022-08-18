@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,23 +33,7 @@ namespace ConsoleApp2
             object start = null, end = null;
             for (int i = 0; i < arr.Count - 1; i++)
             {
-                if ((arr[i] == arr[i + 1]) || ((arr[i] + 1) == arr[i + 1]))
-                {
-                    k++;
-                    if (start == null) start = arr[i];
-                    if (i == arr.Count - 2)
-                    {
-                        end = arr[i + 1];
-                        k++;
-                    }
-                }
-                else
-                {
-                    if (start != null)
-                    {
-                        end = arr[i]; k++;
-                    }
-                }
+                Seq1(arr, ref start, ref end, ref i, ref k);
 
                 if (end != null)
                 {
@@ -61,6 +45,27 @@ namespace ConsoleApp2
                 }
             }
             return val;
+        }
+
+        public void Seq1 (List<int> arr, ref object start, ref object end,ref int i, ref int k)
+        {
+            if ((arr[i] == arr[i + 1]) || ((arr[i] + 1) == arr[i + 1]))
+            {
+                k++;
+                if (start == null) start = arr[i];
+                if (i == arr.Count - 2)
+                {
+                    end = arr[i + 1];
+                    k++;
+                }
+            }
+            else
+            {
+                if (start != null)
+                {
+                    end = arr[i]; k++;
+                }
+            }
         }
     }
 }
