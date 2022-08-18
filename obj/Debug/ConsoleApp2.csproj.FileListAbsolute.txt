@@ -1,0 +1,16 @@
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.abstractions.dll
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.assert.dll
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.core.dll
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.execution.desktop.dll
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.abstractions.xml
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.assert.xml
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.core.xml
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\bin\Debug\xunit.execution.desktop.xml
+C:\Users\HYU1KOR\source\repos\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
