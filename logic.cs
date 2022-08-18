@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class logic
+    public class logic
     {
         public void Seq1(List<int> arr, ref object start, ref object end, ref int i, ref int k)
         {
