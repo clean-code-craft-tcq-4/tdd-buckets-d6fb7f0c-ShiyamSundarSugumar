@@ -9,7 +9,7 @@ namespace ConsoleApp2
 {
     class Segregator
     {
-        logic logic = new logic();
+        
         public string find_data(List<int> data)
         {
             int j = 0;
@@ -33,6 +33,7 @@ namespace ConsoleApp2
             object start = null, end = null;
             for (int i = 0; i < arr.Count - 1; i++)
             {
+                logic logic = new logic();
                 logic.Seq1(arr, ref start, ref end, ref i, ref k);
 
                 if (end != null)
