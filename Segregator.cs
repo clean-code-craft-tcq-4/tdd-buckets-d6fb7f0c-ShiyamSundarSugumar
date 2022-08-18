@@ -7,7 +7,7 @@ using Xunit;
 
 namespace ConsoleApp2
 {
-    class Segregator
+    class Segregator:logics
     {
         
         public string find_data(List<int> data)
@@ -34,7 +34,7 @@ namespace ConsoleApp2
             for (int i = 0; i < arr.Count - 1; i++)
             {
                 
-                logics.Seq1(arr, ref start, ref end, ref i, ref k);
+                Seq1(arr, ref start, ref end, ref i, ref k);
 
                 if (end != null)
                 {
