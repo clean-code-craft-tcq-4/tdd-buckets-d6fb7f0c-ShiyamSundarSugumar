@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eQE9Ey5c0nRaRa/bsvJM8tzvLfIMxMP8gRQRBowzUikd08hNdypjxY+yagSpCm5W/p0WZyaHdYjFsKPhRV5cpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HYU1KOR\\source\\repos\\Current_Range_Sequence_Statistics.Tests\\Current_Sensitivity_finding_for_12bit_Sensor\\Current_Sensitivity_finding_for_12bit_Sensor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HYU1KOR\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}
