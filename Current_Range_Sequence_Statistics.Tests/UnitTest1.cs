@@ -89,9 +89,9 @@ namespace Current_Range_Sequence_Statistics.Tests
             public void ADC_Bit_Max_Value_Testing()
             {
                 const int ADC_12_bit = 12, ADC_10_bit = 10;
-                Assert.Equal(current_Sensitivity_Generator.find_ADC_Max_Value(ADC_12_bit), 4095);
-                Assert.Equal(current_Sensitivity_Generator.find_ADC_Max_Value(ADC_10_bit), 1023);
-                Assert.Equal(current_Sensitivity_Generator.find_ADC_Max_Value(0), -1);
+                Assert.Equal(4095,current_Sensitivity_Generator.find_ADC_Max_Value(ADC_12_bit));
+                Assert.Equal(1023,current_Sensitivity_Generator.find_ADC_Max_Value(ADC_10_bit));
+                Assert.Equal(-1,current_Sensitivity_Generator.find_ADC_Max_Value(0));
             }
 
             [Fact]
@@ -113,12 +113,12 @@ namespace Current_Range_Sequence_Statistics.Tests
             {
                 int[] ADC_Values = { 1080, 512, 2048, 4000, 280, 140 };
                 const int Max_Value_12_bit = 4095, Max_Value_10_bit = 1023;
-                Assert.Equal(current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[0],0,10, Max_Value_12_bit), 3);
-                Assert.Equal(current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[1],0,10, Max_Value_10_bit), 5);
-                Assert.Equal(current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[2],0,10, Max_Value_12_bit), 5);
-                Assert.Equal(current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[3],0,10, Max_Value_12_bit),10);
-                Assert.Equal(current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[4],0,10, Max_Value_10_bit), 3);
-                Assert.Equal(current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[5],0,10, Max_Value_10_bit), 1);
+                Assert.Equal(3,current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[0],0,10, Max_Value_12_bit));
+                Assert.Equal(5,current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[1],0,10, Max_Value_10_bit));
+                Assert.Equal(5,current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[2],0,10, Max_Value_12_bit));
+                Assert.Equal(10,current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[3],0,10, Max_Value_12_bit));
+                Assert.Equal(3,current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[4],0,10, Max_Value_10_bit));
+                Assert.Equal(1,current_Sensitivity_Generator.Conversion_from_ADC_value_to_Ampere_value(ADC_Values[5],0,10, Max_Value_10_bit));
             }
 
             [Fact]
