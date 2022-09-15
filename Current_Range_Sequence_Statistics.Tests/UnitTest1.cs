@@ -77,13 +77,6 @@ namespace Current_Range_Sequence_Statistics.Tests
                 Assert.NotNull(current_Sensitivity_Generator1);
             }
 
-            [Fact]
-            public void Given_input_sequence_when_Current_sensitivity_Generator_Called_should_return_Ampere_as_string()
-            {
-                //Current_Sensitivity_Generator current_Sensitivity_Generator = new Current_Sensitivity_Generator();
-                
-                
-            }
 
             [Fact]
             public void ADC_Bit_Max_Value_Testing()
