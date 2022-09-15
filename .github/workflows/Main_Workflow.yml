@@ -14,8 +14,8 @@ jobs:
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     env:
-      Solution_Name: ConsoleApp2.sln
-      Test_Project_Path: ConsoleApp2.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Solution_Name: Current_Range_Sequence_Statistics.Tests.sln
+      Test_Project_Path: Current_Range_Sequence_Statistics.Tests\Current_Range_Sequence_Statistics.Tests.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
 
     steps:
     - name: Checkout
