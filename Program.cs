@@ -13,7 +13,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Segregator segregator = new Segregator();
-            List<int> data = new List<int>() {3,4,5,6,8,7,8,3,13,14,15,16,17,18,13,22,23};
+            List<int> data = new List<int>() {3,4,5,6,8,7,8,3,13,14,15,16,17,18,13,22,23,24};
 
             string dd = segregator.find_data(data);
             Console.WriteLine(dd);
